@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Counselling Form</title> -->
+    <script src="https://kit.fontawesome.com/269bfe6ad5.js" crossorigin="anonymous"></script>
+    <title>collegechunno/COUNSELLING FORM</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-primary">
+            <div class="containers flex">
+                <nav>
+                    <a><i class="fas fa-phone-alt" style="color: green;"></i>+91-7837964977</a>
+                    <a href="mailto:mail@collegechunno.com"><i class="fas fa-envelope"
+                            style="color: rgb(196, 112, 3);"></i>mail@collegechunno.com</a>
+                </nav>
+                <nav class="social-media-icons">
+                    <span>Connect with us:</span>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </nav>
+            </div>
+        </div>
+        <hr>
+        <div class="nav-secondary container flex">
+            <div class="logo">
+                <a href="#"><img src="/pics/white.png" alt="logo" /></a>
+            </div>
+            <nav class="navbar">
+                <a href="#">Courses</a>
+                <!-- <a href="#">Colleges</a> -->
+                <a href="#">Exams</a>
+                <a href="#">Study Abroad</a>
+                <a href="#">About Us</a>
+                <a href="#">Why Us</a>
+                <a href="#">Services</a>
+                <!-- <a href="#" class="login-btn">Login/Signup</a> -->
+            </nav>
+        </div>
+    </header>
+
+    <section id="form">
+        <div class="container">
+            <div class="row">
+                <div class="form">
+                    <h2 class="paid-cf">COUNSELLING FORM</h2>
+                    <hr>
+                    <!-- <form id="form" name="myform" method="POST" class="mb-2" onsubmit="return validateform()"> -->
+                    <form id="form" name="myform" method="post" action="./qr.html" class="mb-2">
+                        <div id="error"></div>
+                        <div class="form-group">
+                            <label for="exampleInputName">Your Name</label>
+                            <input type="text" class="form-control" id="username" name="fname"
+                                aria-describedby="emailHelp" placeholder="Enter Name" name="name" autocomplete="off"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputCourse">Course Name</label>
+                            <input type="text" class="form-control" id="coursename" name="cname" placeholder="Course"
+                                name="course_name" autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputMoile">Mobile No.</label>
+                            <input type="tel" class="form-control" id="mobile" placeholder="xxxxxxxxxx" name="mobile"
+                                autocomplete="off" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputAmount">Enter Amount</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="5000"
+                                name="amount" disabled required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="xyz@gmail.com" name="email"
+                                autocomplete="off" required>
+                        </div>
+
+
+                        <p>Paid Counseling Services fee <strong> 5000/-</strong></p>
+
+
+                        <input type="submit" class="btn btn-primary btn-lg btn-block" value="PAY NOW"
+                            onclick="validateForm()">
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    /*FOOTER SECTION OF THE PAGE*/
+
+    <footer>
+        <div class="container1">
+            <div class="row1">
+                <div class="footerlinks1">
+                    <h4>Trending Links</h4>
+                    <ul style="list-style-type: none;">
+                        <a href="#">
+                            <li>Top 20 Engineering colleges in India</li>
+                        </a>
+                        <a href="#">
+                            <li>JEE Main Question Paper</li>
+                        </a>
+                        <a href="#">
+                            <li>Latest fee structure of Top Colleges</li>
+                        </a>
+                        <a href="#">
+                            <li>Top 10 IIT's in India</li>
+                        </a>
+                        <a href="#">
+                            <li>Top 10 Medical Colleges in India</li>
+                        </a>
+                        <a href="#">
+                            <li>ICSE vs CBSE</li>
+                        </a>
+                        <a href="#">
+                            <li>UP Board 10 Result 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>Civil Services</li>
+                        </a>
+                        <a href="#">
+                            <li>JEE Main marks vs percentile</li>
+                        </a>
+                        <a href="#">
+                            <li>Top 10 Civil Services Coaching Institutes in India</li>
+                        </a>
+                        <a href="#">
+                            <li>Engineering Colleges in India</li>
+                        </a>
+                        <a href="#">
+                            <li>Best Books for NEET 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>Top Law Colleges in India</li>
+                        </a>
+                        <a href="#">
+                            <li>Best Books for JEE Mains 2022</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footerlinks2">
+                    <h4>Most Viewed Links</h4>
+                    <ul style="list-style-type: none;">
+                        <a href="#">
+                            <li>Amrita University</li>
+                        </a>
+                        <a href="#">
+                            <li>DIT University</li>
+                        </a>
+                        <a href="#">
+                            <li>MBA Admission 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>Engineering Admissions 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>NEET 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>JEE Main Admit Card 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>SRM University</li>
+                        </a>
+                        <a href="#">
+                            <li>NEET Cutt-off 2022</li>
+                        </a>
+                        <a href="#">
+                            <li>Specialization Courses</li>
+                        </a>
+                        <a href="#">
+                            <li>VIT UNiversity</li>
+                        </a>
+                        <a href="#">
+                            <li>Colleges Accepting NEET Scores</li>
+                        </a>
+                        <a href="#">
+                            <li>All Graduation Courses</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="footerlinks3">
+                    <h4>Other Facilities</h4>
+                    <ul style="list-style-type: none;">
+                        <a href="#">
+                            <li>Expert Counselling</li>
+                        </a>
+                        <a href="#">
+                            <li>Online Notes</li>
+                        </a>
+                        <a href="#">
+                            <li>Study Abroad</li>
+                        </a>
+                        <a href="#">
+                            <li>Boards</li>
+                        </a>
+                        <a href="#">
+                            <li>Common Application Form</li>
+                        </a>
+                        <a href="#">
+                            <li>QnA</li>
+                        </a>
+
+                    </ul>
+                </div>
+
+            </div>
+            <hr>
+            <div class="lastfooter">
+                <h4>connect with us : <h4>
+
+                        <a href="#"><img src="pics/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="pics/instagram (1).png" alt="instagram"></a>
+                        <a href="#"><img src="/pics/twitter.png" alt="twitter"></a>
+                        <a href="#"><img src="/pics/linkedin.png" alt="linkedin"></a>
+
+            </div>
+            <hr>
+            <div class="end">
+                <p>© copyright collegechunno22.com . all rights are reserved</p>
+            </div>
+        </div>
+
+        </div>
+    </footer>
+
+
+
+    <script>
+        function validateForm() {
+            var x = document.getElementById('username')
+            var y = document.getElementById('coursename')
+            var z = document.getElementById('mobile')
+            var a = document.getElementById('exampleInputPassword1')
+            var b = document.getElementById('email')
+            var errorElement = document.getElementById('error')
+
+            form.addEventListener('submit', (e) => {
+                let messaages = []
+                if (username.value === '' || username.value == null) {
+                    messages.push('name is required')
+                }
+                if (coursename.value == '') {
+                    messages.push('course name is required')
+                }
+                if (mobile.value.length > 10) {
+                    messages.push('enter a valid mobile number')
+                }
+                if (exampleInputPassword1.value.length >= 10) {
+                    messages.push('enter a valid amount')
+                }
+                if (email.value === '' || email.value == null) {
+                    messages.push('enter a valid email')
+                }
+
+                if (messages.length > 0) {
+                    e.preventDefault()
+                    errorElement.innerText = messages.join(',')
+                }
+                e.preventDefault()
+            })
+
+
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>
